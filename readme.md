@@ -1,9 +1,5 @@
 # Auto-suggestion box
 
-## Website
-
-[Link]()
-
 ## Guideline
 
 To apply this to any textbox:\
