@@ -1,5 +1,9 @@
 # Auto-suggestion box
 
+## UI Interface
+
+![ui](./assets/img/ui.PNG)
+
 ## Guideline
 
 To apply this to any textbox:\
