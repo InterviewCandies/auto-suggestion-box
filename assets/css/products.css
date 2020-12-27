@@ -1,0 +1,27 @@
+.product {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+}
+
+.product .image {
+  background-position: center;
+  background-size: cover;
+}
+
+.product .title {
+  font-size: 14pt;
+}
+
+.product .brand {
+  font-size: 10pt;
+}
+
+.product .price {
+  font-size: 12pt;
+  font-weight: 700;
+}
+
+.autocomplete.active .list .product {
+  display: grid;
+}

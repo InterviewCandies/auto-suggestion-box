@@ -1,0 +1,35 @@
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxes label {
+  display: flex;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+input[type="checkbox"] + span {
+  font-size: 14pt;
+  color: #fff;
+}
+input[type="checkbox"] + span:before {
+  font: 14pt FontAwesome;
+  content: "\00f096";
+  display: inline-block;
+  width: 14pt;
+  padding: 2px 0 0 3px;
+  margin-right: 0.5em;
+}
+input[type="checkbox"]:checked + span:before {
+  content: "\00f046";
+}
+input[type="checkbox"]:focus + span:before {
+  outline: 1px dotted #aaa;
+}
