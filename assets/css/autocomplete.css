@@ -3,7 +3,8 @@
   color: #000;
   width: 100%;
   border-radius: 5px;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 
 .autocomplete input {
@@ -36,8 +37,6 @@
 
 .autocomplete .sections {
   opacity: 0;
-  max-height: 600px;
-  overflow-y: auto;
 }
 
 .autocomplete.active .sections {

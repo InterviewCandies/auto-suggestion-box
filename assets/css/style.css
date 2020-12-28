@@ -47,11 +47,12 @@ section h1 {
 }
 
 .wrapper {
-  min-width: 550px;
+  width: 550px;
   margin: 150px auto;
+  position: relative;
 }
 @media screen and (max-width: 550px) {
   .wrapper {
-    min-width: auto;
+    max-width: 300px;
   }
 }
